@@ -1,0 +1,1585 @@
+
+
+.modal-content .modal-body form .tox.tox-tinymce {
+    max-height: 350px;
+}
+
+div#FAQModel .modal-content {
+    overflow: auto;
+    height: 100%;
+    max-height: 650px;
+}
+
+div#TeacherModel .modal-content {
+    overflow: auto;
+    height: 100%;
+    max-height: 650px;
+}
+
+div#CoursesModel .modal-body {
+    overflow: auto;
+    height: 100%;
+    max-height: 650px;
+}
+.aside-fixed .aside {
+    background: #1a1a1a;
+    padding: 10px 0;
+}
+
+.aside.aside-dark .aside-logo {
+    background: none;
+}
+.aside-dark .menu .menu-item .menu-section {
+    color: #fff !important;
+    font-size: 16px !important;
+}
+.aside-dark .menu .menu-item .menu-link .menu-title {
+    color: #fff;
+    font-size: 18px;
+}
+.aside-dark .menu .menu-item .menu-link .menu-bullet .bullet {
+    background-color: #fff;
+}
+.aside-dark .menu .menu-item .menu-link {
+    margin: 8px 20px 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+    .aside-dark .menu .menu-item .menu-link span:nth-child(2) {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 14px;
+    }
+
+    .aside-dark .menu .menu-item .menu-link span {
+        font-size: 20px;
+        color: #fff;
+        margin:0;
+    }
+.aside-menu .menu-column .menu-item.menu-accordion a.menu-link .bullet-dot {
+    width: 8px;
+    height: 8px;
+    background: #2d8e84;
+    padding: 0;
+}
+.aside .aside-menu {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.aside-dark .menu .menu-item .menu-link:hover:not(.disabled):not(.active), .aside-dark .menu .menu-item.hover > .menu-link:not(.disabled):not(.active) {
+    background: #2d8e84;
+}
+    .aside-dark .menu .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-bullet .bullet, .aside-dark .menu .menu-item.hover > .menu-link:not(.disabled):not(.active) .menu-bullet .bullet {
+        background-color:#fff;
+    }
+    .aside-menu .menu-item {
+        padding: 10px 0 0;
+    }
+.aside-dark .menu .menu-item .menu-link.active {
+    background: #2d8e84;
+}
+
+.sideBar-toggler {
+    position:relative;
+}
+    .sideBar-toggler button {
+        background: #515151;
+        color: #fff;
+        border: none;
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 5;
+        top: -20px;
+        transform: translate(4px, 0);
+    }
+.aside-fixed .aside {
+    overflow: inherit;
+    padding: 20px 0;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    transition: all 0.3s;
+}
+.aside-enabled.aside-fixed.header-fixed .header {
+    left: 300px;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    background-color: #fff;
+    z-index: 999;
+    height:110px;
+}
+    .aside-enabled.aside-fixed.header-fixed .header.headerLeftZero {
+        left: 0;
+    }
+.header-fixed.toolbar-fixed .wrapper {
+    padding: 25px 0px;
+    margin-left: 300px;
+    margin-top: 65px;
+}
+.adminLogo {
+    width: 130px;
+}
+
+    .adminLogo img {
+        width: 100%;
+    }
+.toggleBtn {
+    flex: 1 1 auto;
+    padding-left: 20px;
+}
+
+
+    .toggleBtn a i {
+        font-size: 24px;
+        color: #000;
+    }
+.closeMenu-wrap {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    display:none;
+}
+
+.closeMenu-wrap a.closeMenu i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.aside-fixed .aside {
+    width: 300px;
+}
+
+.aside-fixed .collapseMenu .aside {
+    width: 0;
+}
+
+.collapseMenu div#kt_wrapper {
+    margin-left: 0;
+}
+
+.dashboardPanel .card {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    border-radius: 0.75rem !important;
+    border-bottom: 3px solid #2d8e84;
+    transition: .3s;
+}
+    .dashboardPanel .card .card-header {
+        padding: 25px 15px;
+        border-bottom: 0;
+    }
+.dashboard-text h4 {
+    font-size: 30px;
+}
+.dashboard-text p {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+    .dashboardPanel .card .card-header .icon {
+        top: -15px;
+        width: 60px;
+        height: 60px;
+        right: 10px;
+        display: flex;
+        background: #2d8e84;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(64 64 64 / 40%) !important;
+        border-radius: 0.75rem !important;
+        transition:.3s;
+    }
+
+        .dashboardPanel .card .card-header .icon i {
+            font-size: 24px;
+            color: #fff;
+        }
+.dashboardPanel .card:hover {
+    background: #2d8e84;
+    color: #ffff;
+}
+
+    .dashboardPanel .card:hover h4 {
+        color: #fff;
+    }
+
+    .dashboardPanel .card:hover .card-header .icon {
+        background: #fff;
+    }
+
+        .dashboardPanel .card:hover .card-header .icon i {
+            color: #2d8e84;
+        }
+
+.ChartWrapper {
+    padding-top: 40px;
+}
+
+/*id card css*/
+
+.CardImages-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+    .CardImages-wrap .CardImages {
+        position: relative;
+        padding: 0 10px;
+    }
+
+        .CardImages-wrap .CardImages img {
+            width: 120px;
+            height: 100px;
+            object-fit: contain;
+        }
+.leftImg {
+    max-width: 260px;
+    margin: 0 auto;
+    position:relative;
+}
+.leftImg img {
+        width: 100%;
+    }
+        .leftImg img.stdCardImg {
+            position: absolute;
+            left: 50%;
+            max-width: 140px;
+            top: 55%;
+            transform: translate(-50%, -50%);
+            zoom: 1.3;
+        }
+
+        .leftImg img:first-child {
+            position: relative;
+            z-index: 5;
+        }
+
+.leftCard {
+    text-align: center;
+    border: 1px solid #0d67a5;
+    background: #fff;
+}
+    .leftCard .leftCard-inner {
+        padding: 20px 60px 0;
+    }
+    .idCardWrapper {
+        padding: 30px 0;
+    }
+
+.CardImages-wrap .CardImages:first-child:after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #0d67a5;
+    position: absolute;
+    right: 0;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(/media/font/JosefinSans-Medium.ttf);
+}
+
+.leftCard .cardName {
+    padding: 10px;
+    box-shadow: 5px 0px 20px 10px inset lightgrey;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.digitalText p {
+    color: #054f9d;
+    margin-bottom: 7px;
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform:uppercase;
+}
+.digitalText span {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.idCardText {
+    padding-top: 10px;
+}
+
+    .idCardText h1 {
+        font-size: 37px;
+        font-weight: 600;
+        color: #0d67a5;
+        line-height: 34px;
+        font-family: myFirstFont;
+        margin: 0;
+    }
+    .idCardText span {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #0d67a5;
+        font-weight: 800;
+        font-family: 'myFirstFont';
+    }
+
+.leftCard.rightCard {
+    padding: 0;
+}
+
+    .leftCard.rightCard .CardImages-wrap {
+        padding: 20px 0;
+    }
+
+    .leftCard.rightCard .cardDetail {
+        text-align: left;
+        padding: 0 20px;
+        position:relative;
+    }
+
+        .leftCard.rightCard .cardDetail:after {
+            content: '';
+            background-image: url(/media/Bano-Qabil-blue.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2;
+        }
+
+        .leftCard.rightCard .cardDetail .text {
+            display: flex;
+            padding-bottom: 15px;
+        }
+
+            .leftCard.rightCard .cardDetail .text span.line {
+                width: 100%;
+                display: block;
+                border-bottom: 1px solid #000;
+            }
+
+            .leftCard.rightCard .cardDetail .text span {
+                font-size: 18px;
+            }
+
+            .leftCard.rightCard .cardDetail .text .numbers {
+                display: flex;
+            }
+
+                .leftCard.rightCard .cardDetail .text .numbers span {
+                    width: 23px;
+                    height: 23px;
+                    border: 1px solid #000;
+                    text-align: center;
+                    border-right: none;
+                }
+
+                    .leftCard.rightCard .cardDetail .text .numbers span:nth-child(6) {
+                        border: none;
+                    }
+
+                    .leftCard.rightCard .cardDetail .text .numbers span:nth-child(14) {
+                        border: none;
+                    }
+
+                    .leftCard.rightCard .cardDetail .text .numbers span:nth-child(5) {
+                        border-right: 1px solid #000;
+                    }
+
+                    .leftCard.rightCard .cardDetail .text .numbers span:nth-child(13) {
+                        border-right: 1px solid #000;
+                    }
+
+                    .leftCard.rightCard .cardDetail .text .numbers span:last-child {
+                        border-right: 1px solid #000;
+                    }
+            .leftCard.rightCard .cardDetail .text span span.innerSpan {
+                padding: 0 0 0 5px;
+            }
+
+            .leftCard.rightCard .cardDetail .text > span {
+                padding-right: 10px;
+                display: flex;
+            }
+
+    .leftCard.rightCard .serviceText {
+        background: #0d67a5;
+        color: #fff;
+    }
+
+        .leftCard.rightCard .serviceText span {
+            text-transform: uppercase;
+            font-size: 17px;
+            font-style: italic;
+        }
+
+        .leftCard.rightCard .serviceText h3 {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 35px;
+            margin: 0;
+            line-height: 22px;
+            font-style: italic;
+        }
+
+.cardLogos {
+    display: flex;
+    justify-content: center;
+}
+
+    .cardLogos img {
+        width: 100%;
+        max-width: 90px;
+        padding: 0 15px;
+        object-fit: contain;
+    }
+
+.cardLogos-wrap {
+    padding: 10px 0;
+}
+
+    .cardLogos-wrap .logoText {
+        color: #054f9d;
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+.leftCard .bottomText {
+    padding: 0 20px 20px;
+    background: #054f9d;
+    color: #fff;
+    line-height: 16px;
+    padding-top: 5px;
+    font-weight: 500;
+    height: 55px;
+}
+
+@media (max-width: 991.98px) {
+    .aside-fixed .aside {
+        display: block;
+    }
+}
+@media screen and (max-width:1199px) {
+    .header-fixed.toolbar-fixed .wrapper {
+        margin-left:0;
+    }
+    .aside-fixed .aside {
+        width: 0;
+    }
+    .aside-fixed .collapseMenu .aside {
+        width: 300px;
+    }
+    .aside-enabled.aside-fixed.header-fixed .header {
+        left:0;
+    }
+    .closeMenu-wrap {
+        display:block;
+    }
+}
+
+
+.tox-notifications-container {
+    left: 0 !important;
+}
+
+h3.StudentInfo {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.row.detailWrap {
+    align-items: center;
+}
+
+.searchBar {
+    position: relative;
+}
+    .searchBar span {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 16px;
+        color: #2d8e84;
+    }
+
+    .searchBar input {
+        border-radius: 0;
+        padding: 12px;
+        font-weight: 300;
+        padding-left: 35px;
+    }
+.filterBtn-wrap {
+    text-align: right;
+}
+
+    .filterBtn-wrap h2 {
+        display: inline-block;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 10px;
+        color: #fff;
+    }
+
+    .filterBtn-wrap .filterBtn {
+        display: inline-block;
+        padding: 10px 14px;
+        background: #2d8e84;
+        border-radius: 5px;
+        cursor:pointer;
+    }
+
+        .filterBtn-wrap .filterBtn span {
+            color: #fff;
+            font-size: 14px;
+        }
+
+.selection-wrap {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .selection-wrap label {
+        position: absolute;
+        top: -9px;
+        left: 5px;
+        font-size: 13px;
+        background: #fff;
+        padding: 0 10px;
+        color: #2d8e84;
+    }
+
+    .selection-wrap select {
+        border-radius: 0;
+        border: 1px solid #2d8e84 !important;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 10px 12px;
+        background-image: url(/media/caret-down.png);
+        background-repeat: no-repeat;
+        background-size: 12px;
+        background-position: right 5px center;
+    }
+
+    .selection-wrap select:focus {
+        border: 1px solid #2d8e84 !important;
+    }
+        div.infoWrapper.content {
+            background: white;
+            border-radius: 0;
+            padding: 30px !important;
+        }
+.allBtnsWrap {
+    text-align: right;
+}
+
+    .allBtnsWrap button {
+        margin-bottom: 10px;
+    }
+
+    .customBtn {
+        background: #2d8e84;
+        margin-left: 10px;
+        border: 1px solid #2d8e84 !important;
+        transition: .3s;
+        color: #fff;
+        padding: 10px 14px !important;
+    }
+
+        .customBtn:hover {
+            background: transparent;
+            color: #2d8e84;
+        }
+        .customBtn.customBtn-light {
+            background: transparent;
+            color: #2d8e84;
+        }
+        .customBtn.customBtn-light i {
+            color: #2d8e84;
+        }
+
+            .customBtn.customBtn-light:hover {
+                color: #fff;
+                background: #2d8e84;
+            }
+
+            .customBtn.customBtn-light:hover i {
+                color: #fff;
+            }
+       .customBtn i {
+            color: #fff;
+            font-size: 16px;
+            margin-right: 5px;
+        }
+        .customBtn:hover i {
+            color: #2d8e84;
+        }
+.records-wrap {
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 2px 10px 0px rgb(0 0 0 / 10%), 0 2px 10px -2px rgb(0 0 0 / 5%);
+    border-radius: 0.75rem !important;
+    border-bottom: 3px solid #2d8e84;
+    transition: .3s;
+}
+
+    .records-wrap label {
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .records-wrap h4 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #2c8c83;
+    }
+
+    .records-wrap:hover {
+        margin-top: 15px;
+    }
+
+label.checkWrap {
+    position: relative;
+    padding-left: 35px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+    label.checkWrap input {
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    label.checkWrap span.checkmark {
+        height: 25px;
+        width: 25px;
+        transition: .3s;
+        border: 1px solid #2d8e84;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        border-radius: 5px;
+    }
+
+    label.checkWrap input:checked ~ span.checkmark {
+        background: #2d8e84;
+    }
+
+    label.checkWrap span.checkmark::after {
+        content: "";
+        position: absolute;
+        display: none;
+        left: 8px;
+        top: 4px;
+        width: 7px;
+        height: 13px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    label.checkWrap input:checked ~ span.checkmark::after {
+        display: block;
+    }
+
+.modal-header {
+    padding: 15px 22px 0;
+    border: none;
+}
+
+    .modal-header h5.modal-title {
+        font-size: 20px;
+    }
+
+.modal-body lebel {
+    font-size: 16px;
+    color: #000;
+}
+
+.modal-body input.form-control {
+    border-radius: 0;
+    font-weight: 200;
+    border: 1px solid #2d8e84;
+    height: 44.5px;
+}
+
+
+.modal-body select {
+    border-radius: 0;
+    font-weight: 200;
+    border: 1px solid #2d8e84;
+    background-image: url(/media/caret-down.png);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: right 5px center;
+}
+    .modal-body select:focus {
+        border: 1px solid #2d8e84;
+    }
+.modal-footer {
+    border: none;
+    padding-top: 0;
+}
+
+.select2.select2-container.select2-container--default .select2-selection--single {
+    border-radius: 0;
+    border: 1px solid #2d8e84 !important;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 12px;
+    height: 44.5px;
+    background-image: url(/media/caret-down.png);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: right 5px center;
+}
+
+.select2.select2-container.select2-container--default .select2-selection--single span.select2-selection__rendered {
+    line-height: initial;
+    padding: 0;
+    color: #000;
+}
+
+.select2.select2-container.select2-container--default .select2-selection--single span.select2-selection__rendered + span.select2-selection__arrow {
+    display: none;
+}
+
+.dataTables_wrapper div.dt-buttons {
+    float: inherit;
+}
+
+    .dataTables_wrapper div.dt-buttons a.dt-button {
+        background: #2d8e84 !important;
+        border: 1px solid #2d8e84 !important;
+        transition: .3s;
+        color: #fff;
+        padding: 10px 14px !important;
+    }
+
+.customBtn.btnValidateIds {
+    margin: 0;
+    padding: 7px 9px 7px 11px !important;
+    margin-top: 12px;
+}
+
+    .customBtn.btnValidateIds i {
+        font-size: 14px;
+        margin: 0;
+    }
+
+.InterviewSection {
+    padding:50px 0;
+    text-align:left;
+}
+
+.InterviewSection .Logo {
+    width:140px;
+}
+
+    .InterviewSection .Logo img {
+        width:100%;
+    }
+
+    .InterviewSection .Logo.rightLogo {
+        margin-left: auto;
+        width: 180px;
+    }
+
+    .InterviewSection .topText {
+        text-align: center;
+    }
+
+    .InterviewSection .topText h2 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: serif;
+        margin: 0;
+    }
+
+    .InterviewSection .topText h5 {
+        font-size: 24px;
+        font-family: emoji;
+        font-weight: 600;
+    }
+
+.contentText {
+    text-align: left;
+    padding: 20px 0;
+}
+
+h4.interView-head {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: underline;
+}
+
+    .contentText ul li {
+        padding-left: 10px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+.InterviewSection .dateAndTime {
+    text-align: left;
+}
+
+.InterviewSection .dateAndTime > div span {
+    font-size: 16px;
+}
+
+    .InterviewSection .dateAndTime > div span:last-child {
+        color: #ffa500;
+    }
+
+.InterviewSection .stdImage {
+    width: 166px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 5px;
+}
+    .InterviewSection .stdImage img {
+        width: 100%;
+        height: 198px;
+        object-fit: cover;
+    }
+
+.InterviewSection .infoWrap {
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+    .InterviewSection .infoWrap span {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+        .InterviewSection .infoWrap span.orangeText {
+            font-weight: 400;
+            color: #ffa500;
+            padding-left: 10px;
+        }
+
+        .InterviewSection .infoWrap span.lightText {
+            font-weight: 400;
+        }
+
+.InterviewSection .table > thead th {
+    font-size: 16px;
+    font-weight: 500;
+    text-align:center;
+}
+
+.InterviewSection .table tbody td {
+    font-size: 16px;
+    font-weight: 500;
+    text-align:left;
+}
+.InterviewSection table ul {
+    margin: 0;
+}
+.InterviewSection .listText {
+    text-align: left;
+}
+
+    .InterviewSection .listText ul {
+        list-style: auto;
+    }
+
+        .InterviewSection .listText ul li {
+            line-height: 30px;
+            padding-left: 10px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+            .InterviewSection .listText ul li span {
+                font-weight: 400;
+                padding-left: 10px;
+            }
+
+    .InterviewSection .listText.secondList {
+        padding-top: 10px;
+    }
+
+        .InterviewSection .listText.secondList h5 {
+            font-size: 22px;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .InterviewSection .listText.secondList ul li {
+            width: 50%;
+            float: left;
+            padding: 0;
+        }
+            .InterviewSection .listText.secondList ul li > div {
+                display: flex;
+                padding-bottom: 5px;
+            }
+            .InterviewSection .listText.secondList ul li span.line {
+                width: 220px;
+                display: inline-block;
+                border-bottom: 1px solid #000;
+            }
+
+            .InterviewSection .listText.secondList ul li span:first-child {
+                width: 105px;
+                display: inline-block;
+            }
+.InterviewSection .courseint-text {
+    display:flex;   
+}
+.InterviewSection .courseint-text span.line {
+    width: 350px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    margin-left: 5px;
+}
+
+.InterviewSection .courseint-text span {
+    font-size: 18px;
+}
+
+.InterviewSection .courseRight {
+    padding-bottom: 10px;
+    display:flex;
+}
+
+    .InterviewSection .courseRight span.line {
+        display: inline-block;
+        border-bottom: 1px solid #000;
+        width: 290px;
+    }
+
+    .InterviewSection .courseRight span:first-child {
+        width: 155px;
+        display: inline-block;
+    }
+
+.InterviewSection .interBottom-text p {
+    margin: 0;
+    font-size: 18px;
+}
+.InterviewSection .interBottom-date .innerDate {
+    display: flex;
+    align-items: end;
+}
+
+    .InterviewSection .interBottom-date .innerDate span.line {
+        width: 100%;
+        border-bottom: 1px solid #000;
+        margin-left: 10px;
+    }
+    .InterviewSection .interBottom-date .innerDate span {
+        font-size: 18px;
+    }
+
+    .InterviewSection p {
+        font-size: 18px;
+    }
+
+.InterviewSection .securityText .securityInner {
+    display: flex;
+}
+
+    .InterviewSection .securityText .securityInner span {
+        font-size: 18px;
+        width: 195px;
+    }
+
+        .InterviewSection .securityText .securityInner span.line {
+            border-bottom: 1px solid #000;
+            width: calc(100% - 195px);
+        }
+.InterviewSection ul {
+    margin:0;
+}
+.InterviewSection .form-group {
+    margin-bottom: 20px;
+}
+
+    .InterviewSection .form-group label {
+        font-size: 18px;
+        padding-bottom: 3px;
+    }
+
+    .InterviewSection .form-group select, .InterviewSection .form-group input, .InterviewSection td select, .InterviewSection td input {
+        box-shadow: none;
+        height: 40px;
+        border-radius: 0;
+        border: 1px solid #2d8e84;
+    }
+
+        .InterviewSection .form-group select:focus, .InterviewSection .form-group input:focus,
+        .InterviewSection td select:focus, .InterviewSection td input:focus {
+            box-shadow:none;
+        }
+        table.table_edc thead tr {
+            border: 1px solid rgb(222, 226, 230);
+        }
+table.table_edc td input.btn-primary {
+    box-shadow: none;
+    background: #2d8e84;
+    padding: 2px 12px;
+    transition: .3s;
+}
+    table.table_edc td input.btn-primary:hover {
+        border-color: #2d8e84;
+        background: #fff;
+        color: #2d8e84;
+    }
+        table.table_edc td input.btn-primary:focus {
+            box-shadow:none;
+        }
+        table.table_edc td input.btn-danger {
+            box-shadow: none;
+            background: #2d8e84;
+            transition: .3s;
+            border: 1px solid #2d8e84;
+            border-radius: 7px;
+            font-size: 20px;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            table.table_edc td input.btn-danger:focus {
+                box-shadow:none;
+            }
+
+table.dataTable > thead tr {
+    border: none;
+}
+table.dataTable > thead tr th {
+    color: #fff !important;
+    background: #2d8e84;
+}
+
+    table.dataTable > thead tr th:first-child {
+        padding-left: 10px;
+        padding-top: 16.25px;
+        padding-bottom: 16.25px;
+    }
+
+table.dataTable tbody tr td {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    padding-left: 10px !important;
+    font-size: 15px;
+}
+
+.dataTables_wrapper .dataTables_scroll {
+    overflow: auto;
+    border: 1px solid lightgrey;
+}
+
+    .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead {
+        overflow: initial !important;
+    }
+
+        .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner {
+            overflow: initial !important;
+        }
+
+    .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody {
+        overflow: initial !important;
+        border: none;
+    }
+
+div.dataTables_wrapper div.dataTables_filter label {
+    font-size: 17px;
+}
+
+    div.dataTables_wrapper div.dataTables_filter label input {
+        outline: none;
+        height: 40px;
+        width: 200px;
+        border-radius: 0;
+        border-color: #000;
+        background-image: url(/media/search-icon.png);
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position: left 5px center;
+        padding-left: 30px;
+    }
+
+div.dataTables_wrapper div.dataTables_filter {
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+.dataTables_length label {
+    font-size: 17px;
+    color: #000;
+}
+
+div.dataTables_wrapper div.dataTables_length {
+    padding-bottom: 0;
+}
+
+.dataTables_wrapper .dataTables_length label select {
+    border: 1px solid #000;
+    border-radius: 0;
+    box-shadow: 1px 3px 6px #a7a7a7;
+    margin: 0 5px;
+}
+.dataTables_wrapper .dataTables_scroll::-webkit-scrollbar {
+    height: 12px;
+    width:12px;
+    background: #a9a9a947;
+}
+
+.dataTables_wrapper .dataTables_scroll::-webkit-scrollbar-thumb {
+    background-color: #a4a7a6;
+}
+div.dataTables_wrapper div.dataTables_info {
+    color: #000;
+    font-size: 14px;
+}
+div.dataTables_wrapper div.dataTables_paginate a.paginate_button.previous {
+    background: none;
+    color: #2d8e84 !important;
+    font-size: 16px;
+    transition: .3s;
+    border: none !important;
+}
+
+    div.dataTables_wrapper div.dataTables_paginate a.paginate_button.previous.disabled {
+        color: grey !important;
+    }
+
+div.dataTables_wrapper div.dataTables_paginate a.paginate_button.next {
+    color: #2d8e84 !important;
+    font-size: 16px;
+    background: none;
+    transition: .3s;
+    border: none !important;
+}
+
+    div.dataTables_wrapper div.dataTables_paginate a.paginate_button.next.disabled {
+        color: grey !important;
+    }
+
+div.dataTables_wrapper div.dataTables_paginate.paging_simple_numbers span a.paginate_button {
+    background: none !important;
+    outline: none;
+    border: none !important;
+    font-size: 16px;
+    color: #2d8e84 !important;
+    border-radius: 50px;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 34px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate a.paginate_button.previous:hover {
+    font-weight: 600;
+    color: #2d8e84 !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate a.paginate_button.next:hover {
+    font-weight: 600;
+    color: #2d8e84 !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate.paging_simple_numbers span a.paginate_button.current {
+    background: #2d8e84 !important;
+    color: #fff !important;
+    box-shadow: 1px 2px 5px #2d8e84;
+}
+table.dataTable tbody tr td button.btn.btn-sm {
+    background: black;
+    padding: 7px 11px !important;
+    width: 35px;
+    height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+    table.dataTable tbody tr td button.btn.btn-sm i {
+        color: #fff !important;
+    }
+table.dataTable tbody tr td.select-checkbox::before {
+    width: 20px;
+    height: 20px;
+    margin-left: -13px;
+    margin-top: -10px;
+}
+
+
+table.dataTable tbody tr.odd td.select-checkbox::after {
+    margin-left: -10px;
+    font-size: 17px;
+}
+
+table.dataTable.stripe > tbody > tr.odd.selected > td, table.dataTable.display thead + tbody > tr.odd.selected > td {
+    box-shadow: none;
+    color:#000;
+}
+
+table.dataTable.stripe > tbody > tr.odd.selected:hover td, table.dataTable.display thead + tbody > tr.odd.selected:hover td {
+    box-shadow: none !important;
+}
+
+table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+    background: #f3f3f3;
+    box-shadow: none;
+}
+
+table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+    background: #fff;
+    box-shadow: none;
+}
+
+    table.dataTable tbody tr:hover td.sorting_1 {
+        background: #ededed !important;
+    }
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody thead tr {
+    height: 1px;
+}
+
+    .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody thead tr th {
+        width: 44px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        height: 0;
+        font-size: 0;
+    }
+
+div.modal .modal-content .modal-header button.btn-modalClose {
+    background: none;
+    padding: 0 !important;
+}
+
+    div.modal .modal-content .modal-header button.btn-modalClose i {
+        font-size: 22px;
+    }
+#UpdateCourseMappingTable_wrapper div.dataTables_length {
+    padding-bottom: 20px;
+}
+
+.scheduleImg {
+    position: relative;
+    width: 26%;
+    height: 443px;
+}
+
+    .scheduleImg img {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 1px 5px 10px gray;
+        height: 443px;
+    }
+
+.donateBtn {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+}
+
+    .donateBtn a.btn.customBtn {
+        margin: 0;
+        color: #2d8e84;
+    }
+
+            
+
+        @media print {
+            @page {
+                size: ledger;
+            }
+            .InterviewSection .Logo {
+                width: 110px;
+            }
+
+            .InterviewSection .topText h2 {
+                font-size: 24px;
+            }
+
+            .InterviewSection .topText h5 {
+                font-size: 18px;
+            }
+
+            .InterviewSection .Logo.rightLogo {
+                width: 150px;
+            }
+
+            h4.interView-head {
+                font-size: 14px;
+                margin: 0;
+            }
+
+            .contentText ul li {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .contentText ul {
+                margin: 0;
+            }
+            .InterviewSection .listText.secondList ul li > div {
+                padding:0;
+            }
+            .contentText {
+                padding: 10px 0;
+            }
+
+            .InterviewSection .stdImage {
+                margin-bottom: 20px;
+            }
+
+            .InterviewSection .infoWrap span {
+                font-size: 13px;
+            }
+
+            .InterviewSection p {
+                font-size: 13px;
+            }
+
+            .InterviewSection .listText ul li {
+                font-size: 13px;
+                line-height: 22px;
+            }
+
+            .InterviewSection .listText.secondList h5 {
+                font-size: 14px;
+            }
+
+            .InterviewSection .interBottom-text p {
+                font-size: 13px;
+            }
+
+            .InterviewSection .interBottom-date .innerDate span {
+                font-size: 13px;
+            }
+
+            .InterviewSection .securityText .securityInner span {
+                font-size: 14px;
+                width: 180px;
+            }
+
+            .InterviewSection table ul {
+                padding-left: 20px;
+            }
+            .InterviewSection .table thead th,.InterviewSection .table tbody td {
+                padding: 4px 10px;
+                font-size:13px;
+            }
+            .InterviewSection .infoWrap {
+                padding-bottom:2px;
+            }
+            .InterviewSection p {
+                margin:0;
+            }
+            .InterviewSection .listText {
+                padding-top:15px;
+            }
+            .InterviewSection .courseRight span:first-child {
+                width:220px;
+            }
+            .row.ManagingText {
+                padding-bottom:10px !important;
+            }
+            .InterviewSection hr {
+                display:none;
+            }
+            .InterviewSection .listText.secondList ul li span:first-child {
+                width:80px;
+            }
+            .InterviewSection .securityText .securityInner span {
+                width:150px;
+            }
+            .InterviewSection ul {
+                padding-top:5px;
+            }
+            .InterviewSection .listText ul, .InterviewSection table ul {
+                padding-top:0;
+            }
+            .InterviewSection table {
+                margin-bottom:0;
+            }
+        }
+
+      
+
+
+.tox-tinymce-aux {
+    display: none;
+}
+
+@media (max-width:1195px) {
+    .scheduleImg {
+        margin-bottom:25px;
+        height:288px;
+    }
+        .scheduleImg img {
+            height: 288px;
+        }
+        .scheduleSection .card {
+            order: 3;
+        }
+        .scheduleSection .card + .scheduleImg {
+            order: 2;
+        }
+}   
+
+@media (max-width:768px){
+    .scheduleImg img {
+        height: auto;
+    }
+
+    .scheduleImg {
+        height: auto;
+    }
+
+    .donateBtn {
+        bottom: 20px;
+    }
+        .donateBtn a.btn.customBtn {
+            font-size: 14px;
+            padding: 6px 8px !important;
+        }
+}
+
+@media (max-width:575px) {
+    .scheduleImg {
+        width: 150px;
+        height: auto;
+    }
+
+    .donateBtn a.btn.customBtn {
+        font-size: 8px;
+    }
+
+    .InterviewSection .listText.secondList ul li {
+        width: 100%;
+    }
+
+    h4.interView-head {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .courseint-text {
+        padding-bottom: 30px;
+    }
+
+    .InterviewSection .Logo {
+        width: 80px;
+    }
+
+        .InterviewSection .Logo.rightLogo {
+            width: 120px;
+        }
+
+    .InterviewSection .topText {
+        padding-top: 10px;
+    }
+
+        .InterviewSection .topText h2 {
+            font-size: 24px;
+        }
+
+        .InterviewSection .topText h5 {
+            font-size: 16px;
+        }
+}
+
+
+@media (max-width:480px) {
+    .InterviewSection .Logo {
+        width: 60px;
+    }
+
+    .InterviewSection .topText h2 {
+        font-size: 14px;
+    }
+
+    .InterviewSection .topText h5 {
+        font-size: 11px;
+    }
+
+    .InterviewSection .Logo.rightLogo {
+        width: 90px;
+    }
+
+    h4.interView-head {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .contentText ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contentText ul {
+        margin: 0;
+    }
+
+    .contentText {
+        padding: 10px 0;
+    }
+
+    .InterviewSection .stdImage {
+        margin-bottom: 20px;
+    }
+
+    .InterviewSection .infoWrap span {
+        font-size: 15px;
+    }
+
+    .InterviewSection p {
+        font-size: 16px;
+    }
+
+    .InterviewSection .listText ul li {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .InterviewSection .listText.secondList h5 {
+        font-size: 17px;
+    }
+
+    .InterviewSection .interBottom-text p {
+        font-size: 16px;
+    }
+
+    .InterviewSection .interBottom-date .innerDate span {
+        font-size: 16px;
+    }
+
+    .InterviewSection .securityText .securityInner span {
+        font-size: 16px;
+        width: 180px;
+    }
+
+    .InterviewSection table ul {
+        padding-left: 20px;
+    }
+}
