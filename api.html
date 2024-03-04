@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Students Data Fetcher</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+
+  #container {
+    text-align: center;
+  }
+
+  #input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #result {
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<div id="container">
+  <h1>School Students Data Fetcher</h1>
+  <input type="text" id="input" placeholder="Enter student name">
+  <button onclick="fetchData()">Fetch Data</button>
+  <div id="result"></div>
+</div>
+
+<script>
+  // Placeholder response with 20 student objects
+  const placeholderResponse = [
+    { name: "WALEED UR REHMAN", grade: "A" },
+    { name: "SYED MUHAMMAD ALI", grade: "B" },
+    { name: "SYED AHMED UDDIN", grade: "C" },
+    { name: "INAMULLAH KHAN ASHRAFIs", grade: "A" },
+    { name: " MUHAMMAD UMER KHAN", grade: "B" },
+    { name: "ALI RAJAI", grade: "C" },
+    { name: "NOOR UR REHMAN", grade: "A" },
+    { name: "ABDULLAH HUSSAIN", grade: "B" },
+    { name: "RAYYAN BAIG", grade: "C" },
+    { name: "MUHAMMAD HASSAN ROKERYAz", grade: "A" },
+    { name: "HAMZA ALI RIZVI", grade: "B" },
+    { name: "MUHAMMAD JAWAD", grade: "C" },
+    { name: "M ARSALAN", grade: "A" },
+    { name: "MUHAMMAD ZEESHAN AJMERI", grade: "B" },
+    { name: "SALMAN AHMED", grade: "C" },
+    { name: "MOHIB KHAN DODANI", grade: "A" },
+    { name: "MUHAMMAD HASSAN AYUBI", grade: "B" },
+    { name: "NAEEMULLAH HUSSAIN", grade: "C" },
+    { name: " HAMZA JAVED KHAN", grade: "A" },
+    { name: " MUHAMMAD ZAHID", grade: "A" },
+    { name: " NOMAN", grade: "A" },
+    { name: "HAMMAD ALI", grade: "A" },
+    { name: "ABDUL NASIR", grade: "A" },
+    { name: "AFTAB HUSSAIN", grade: "B" }
+    { name: "FARHAN", grade: "B" }
+    { name: "MUHAMMAD AZFAR ANIS", grade: "B" }
+  ];
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DANIYAL IRTIZA
+USAMA KHAN
+MUHAMMAD MAHAD
+HANIFULLAH
+GHULAM MUSTAFA
+NAQEEB
+MUHAMMAD ZAIN
+SYED MUHAMMAD ALI
+OWAIS NAFEES
+MUHAMMAD BILAL
+
+MUHAMMAD SAHIB
+ZAIN Ul ABIDEEN
+AFTAB HUSSAIN
+  function fetchData() {
+    const input = document.getElementById('input').value;
+    const filteredData = placeholderResponse.filter(student => {
+      return student.name.toLowerCase().includes(input.toLowerCase());
+    });
+    displayResult(filteredData);
+  }
+
+  function displayResult(data) {
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = ''; // Clear previous result
+
+    if (data && data.length > 0) {
+      // Shuffle the data array to display results randomly
+      const shuffledData = shuffleArray(data);
+      
+      const ul = document.createElement('ul');
+      shuffledData.forEach(student => {
+        const li = document.createElement('li');
+        li.textContent = `${student.name} - Grade: ${student.grade}`; // Assuming 'name' and 'grade' are keys in the API response
+        ul.appendChild(li);
+      });
+      resultDiv.appendChild(ul);
+    } else {
+      resultDiv.textContent = 'No students found';
+    }
+  }
+
+  // Function to shuffle an array
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+</script>
+</body>
+</html>
