@@ -335,7 +335,7 @@ h1.head-title {
 
 section.chooseUs {
     padding: 70px 0px 50px;
-    background-image: url(/media/chooseUs.jpg);
+    background-image: url(./media/chooseUs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
